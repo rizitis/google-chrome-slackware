@@ -39,7 +39,7 @@ fi
 dir=google-chrome
 
 
-cd /tmp
+cd /tmp || exit 1
 rm google-chrome-*.t?z
 mkdir -p $dir || exit 1
 cd $dir || exit 1
